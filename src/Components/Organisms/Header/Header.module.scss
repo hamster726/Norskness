@@ -1,0 +1,53 @@
+@import "../../../Assets/Styles/Imports";
+
+.headerContainer {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  z-index: 2;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+  max-width: 970px;
+  border-bottom: 1px solid $additionalDark;
+}
+
+.navLink {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 auto;
+
+  &:visited {
+    color: $additionalDark;
+  }
+
+  &:hover {
+    text-shadow: -0.5px -0.5px 0.5px $additionalDark;
+    transition: all .2s;
+  }
+
+
+}
+
+.navLinkText {
+  font-size: 16px;
+  line-height: 17px;
+  min-width: 120px;
+  text-align: end;
+}
+
+.logo {
+  width: 230px;
+
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../../Assets/Styles/Colors.scss';
+@import '../../../Assets/Styles/Fonts.scss';
+
+
+.containerContact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corner_top_left {
+  position: absolute;
+  top: -38px;
+  left: -38px;
+  width: 38px;
+}
+
+.corner_top_right {
+  position: absolute;
+  width: 38px;
+  top: -38px;
+  right: -38px;
+  transform: rotate(90deg);
+}
+
+.corner_bottom_left {
+  position: absolute;
+  width: 38px;
+  bottom: -38px;
+  left: -38px;
+  transform: rotate(-90deg)
+}
+
+.corner_bottom_right {
+  position: absolute;
+  width: 38px;
+  bottom: -38px;
+  right: -38px;
+  transform: rotate(180deg)
+}
+
+.contacts {
+  display: flex;
+  padding: 0 29.5px 0 29.5px;
+  height: 203px;
+  background-color: $primaryBlueDark;
+}
+
+.titleContact {
+  margin: 57px 0 0 52px;
+}
+
+.subtitleContact {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: $additionalDark;
+  margin: 19px 0 0 57px;
+}
+
+.btnContact {
+  margin: 125px 0 0 200px;
+}
+
+

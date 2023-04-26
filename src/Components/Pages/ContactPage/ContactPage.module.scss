@@ -1,0 +1,96 @@
+@import "../../../Assets/Styles/Imports";
+
+.mainContainer {
+  background-image: url("../../../Assets/Images/Background/bg-contacts-lines.svg");
+  background-size: cover;
+  background-position: center center;
+  z-index: -2;
+}
+
+.containerMain {
+  flex-direction: column;
+  padding: 0 0 0 205px;
+}
+
+//FORM
+
+.containerForm {
+  margin-top: 15px;
+}
+
+.titleContacts {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: $additionalDark;
+  margin: 0 0 25px 0;
+}
+
+.subtitleContacts {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $additionalDark;
+}
+
+//BACKGROUNDS
+
+.bgContactsMap {
+  position: absolute;
+  width: 900px;
+  right: 0;
+  top: 923px;
+  z-index: -1;
+}
+
+//CONTACTS
+
+.containerContacts {
+  margin-top: 270px;
+}
+
+.phone,
+.email {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $primaryBlueDarkness;
+  margin: 15px 0 0 0;
+}
+
+//ADDRESS
+
+.containerAddresses {
+  margin-top: 135px;
+}
+
+.listAddresses {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  white-space: pre-wrap;
+
+  li {
+    margin-bottom: 30px;
+  }
+}
+
+//CONTACT US
+
+.containerContactUs {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 163px;
+  margin-top: 390px;
+}
+
+
+
+

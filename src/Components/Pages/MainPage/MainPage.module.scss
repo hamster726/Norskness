@@ -1,0 +1,294 @@
+@import "../../../Assets/Styles/Imports";
+
+body {
+  color: $additionalDark;
+}
+
+.mainContainer {
+  background-image: url("../../../Assets/Images/Background/bg-lines.svg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -150px;
+  z-index: -2;
+}
+
+//TOP BACKGROUND
+
+.containerBgHome {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 151px;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.bg_home_hero {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  margin: 0 30px 165px 0;
+}
+
+.subtitle {
+  position: absolute;
+  margin: 0 0 90px 275px;
+  color: $primaryBlueDark;
+}
+
+.seeHowWeWork {
+  position: absolute;
+  margin: 0 0 40px 1020px;
+}
+
+//OUR TEAM
+
+.containerOurTeam {
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.line {
+  width: 100%;
+}
+
+.titleOurTeam {
+  display: inline-flex;
+  gap: 20px;
+  margin-left: -517px;
+
+  h3 {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: $primaryBlueDark;
+  }
+}
+
+.arrowRight {
+  width: 68px;
+  margin-bottom: 37px;
+}
+
+.textOurTeam {
+  max-width: 694px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: -25px 0 0 0;
+}
+
+.btnContactUs {
+  margin: 0 0 0 645px;
+}
+
+//OUR SERVICES
+
+.containerServices {
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.contentServices {
+  margin: 340px 0 350px 110px;
+}
+
+.titleServices {
+  display: flex;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.textServices {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 0;
+}
+
+.button {
+  display: flex;
+  gap: 5px;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: $additionalDark;
+  border-bottom: 1px solid $additionalDark;
+  height: 30px;
+  list-style-type: none;
+  text-decoration: none;
+
+  img {
+    width: 25px;
+  }
+}
+
+.buttonServices {
+  max-width: 390px;
+  margin: 42px 0 0 0;
+}
+
+.bgServices {
+  position: absolute;
+  width: 932px;
+  right: 0;
+  margin-top: -580px;
+  padding: 0;
+}
+
+//ABOUT MVP
+
+.containerAboutMvp {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.containerPlusIcon {
+  flex: 1;
+}
+
+.containerTextMvp {
+  flex: 1.25;
+}
+
+.titleMvp {
+  margin: 0;
+}
+
+.subtitleMvp {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 30px 0 5px 0;
+}
+
+.descriptionMvp {
+  max-width: 302px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  color: $additionalGrey;
+}
+
+.plusIcon {
+  width: 58px;
+  margin-left: 110px;
+}
+
+.buttonMvp {
+  max-width: 310px;
+  margin-top: 27px;
+}
+
+//PROCESS
+
+.processBg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: 125px 0 115px 0;
+}
+
+.bg_process {
+  width: 100%;
+}
+
+.titleProcess {
+  position: absolute;
+  left: 210px;
+}
+
+.processContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 110px 0 110px;
+}
+
+.frame {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 44px;
+  height: 33px;
+  padding: 0 5px 2px 0;
+  background-color: $additionalDark;
+  border: 1px solid $additionalDark;
+  color: $additionalLight;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.containerLine {
+  width: 100%;
+}
+
+.processLine {
+  height: 0;
+  border: 1px solid $additionalDark;
+  margin-left: 75px;
+}
+
+.processText {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0;
+  grid-auto-columns: 1fr 1.6fr;
+  margin-left: 70px;
+}
+
+.descriptionProcess {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -10px;
+  list-style-type: none;
+  text-decoration: none;
+  white-space: pre-wrap;
+
+  p {
+    margin: 0;
+  }
+}
+
+.subtitleProcess {
+  margin-top: -15px;
+}
+
+.containerArrowLeft {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.arrow_left {
+  width: 145px;
+  margin: 32px 110px 155px 0;
+}
+
+//CONTACT US
+
+.containerContactUs {
+  margin-bottom: 163px;
+}
+
+
+
+

@@ -1,0 +1,123 @@
+@import "../../../Assets/Styles/Imports";
+
+.headerL {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: $additionalDark;
+  @include reset-indents;
+  margin-left: -5px; // fix font issue
+
+  @include tablet-size {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+.headerM {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: $additionalDark;
+  @include reset-indents;
+
+
+  @include tablet-size {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+.headerS {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: $additionalDark;
+  @include reset-indents;
+
+
+  @include tablet-size {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.headerXS {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  @include reset-indents;
+
+
+  @include tablet-size {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.paragraphL {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  @include reset-indents;
+
+}
+
+.paragraphS {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  @include reset-indents;
+
+}
+
+.captionText {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  @include reset-indents;
+
+}
+
+.captionTextL {
+  font-size: 24px;
+  line-height: 32px;
+  @include reset-indents;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: $primaryBlueDark;
+  @include reset-indents;
+
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  @include reset-indents;
+
+}
+
+.fontSyncopate {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.fontWorkSans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.fontBold {
+    font-weight: 700;
+}
+
+.fontRegular {
+  font-weight: 400;
+}

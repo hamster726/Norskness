@@ -1,0 +1,108 @@
+@import "../../../Assets/Styles/Imports";
+
+body {
+  color: $additionalDark;
+}
+
+form {
+  margin-top: -10px;
+}
+
+//CHECKBOX
+.checkboxLabel {
+  margin-top: 30px;
+}
+
+.checkboxLabel {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  display: inline-flex;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border: 3px solid $additionalDark;
+    cursor: pointer;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 5px 0 0 5px;
+    width: 24px;
+    height: 24px;
+    border: 3px solid $additionalDark;
+    cursor: pointer;
+  }
+
+  p {
+    margin: 10px 0 0 23px;
+  }
+}
+
+input[type="checkbox"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+[type=checkbox]:checked + span:before {
+  content: '\2714';
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  font-size: 23px;
+  color: green;
+}
+
+.errorChecked {
+  color: $error;
+}
+
+//SUBMIT BTN
+
+.button {
+  max-width: 210px;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  font-size: 24px !important;
+  padding: 0 !important;
+
+  img {
+    width: 25px;
+    margin-left: 10px;
+  }
+}
+
+.inputWithIcon {
+  display: flex;
+  gap: 3px;
+  margin: 50px 0 0 335px;
+  border-bottom: 1px solid $additionalDark;
+  max-width: 239px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+input[type=submit] {
+  border: none;
+}
+
+

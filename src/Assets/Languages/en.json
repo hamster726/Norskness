@@ -1,0 +1,85 @@
+{
+  "common": {
+    "contact_us": "Contact us",
+    "services": "services",
+    "company": "company",
+    "mvp": "mvp",
+    "our_contact": "our contact"
+  },
+  "homePage": {
+    "title": "Add value to your business",
+    "subtitle": "with Norskness capabilities",
+    "titleTeam": "Our team",
+    "textOurTeam": "Our team has expertise in all aspects of the product lifecycle from strategy and design to development and further growth. Send us your idea today and we’ll transform your it into solution!",
+    "titleServices": "Our Services",
+    "btnSeeHowWeWork": "see how we work",
+    "btnContactUs": "Contact us",
+    "btnServices": "more about services",
+    "btnMvp": "more about MVP",
+    "titleServices1": "Product Strategy",
+    "titleServices2": "Product Design & User Experience",
+    "titleServices3": "Product Development",
+    "titleServices4": "Web Development / Mobile Development",
+    "titleServices5": "Credit and Mortgage Software Development",
+    "titleServices6": "Bank Saving Solutions Software Development",
+    "titleServices7": "Pharma and Bio Technology Software Development",
+    "titleMvp1": "HAVE AN IDEA OF WEB APP?",
+    "titleMvp2": "LET’S START WITH MVP!",
+    "subtitleMvp": "Build and launch in 5 weeks for $5000 *",
+    "descriptionMvp": "* the package includes twenty working days of one dedicated middle-level developer.",
+    "titleProcess": "Process",
+    "data.descriptionProcess.one": "Process",
+    "titleContact": "Ready to drop us a line?",
+    "subtitleContact": "We’d love to hear from you."
+  },
+  "servicesPage": {
+    "titleServicesMain": "Services",
+    "textServicesMain": "Norskness builds digital products and services for the world’s innovative companies so they can meet the digital demands of their customers, employees and businesses.",
+    "titleServices": "Services",
+    "titleProduct": "Product Strategy",
+    "titleTechnologies": "Technologies we use",
+    "textProductLeft": {
+      "one": "Product Design & User Experience",
+      "second": "Product Development",
+      "third": "Web Development / Mobile Development",
+      "fourth": "Credit and Mortgage Software Development",
+      "fifth": "Bank Saving Solutions Software Development",
+      "sixth": "Pharma and Bio Technology Software Development"
+    }
+  },
+  "companyPage": {
+    "titleCompanyMain": "Your Partner in Technology Innovation",
+    "subtitleCompanyMain": "We are a digital transformation consultancy and technology engineering company that delivers cutting edge solutions for innovation organisations and technology startups.",
+    "subtitleMission": "MISSION & VISION",
+    "descriptionMission": "Our mission is to help enterprises accelerate adoption of new technologies, solve complex issues that always emerge during digital evolution, and orchestrate ongoing trended solutions. Whether it is a client-oriented app or a transformative enterprise-class case, our expertice lead the process from initiation and concept to delivery, and provides ongoing maintense and support.",
+    "titleTeam": "Team",
+    "titleOurStory": "Our story",
+    "textOurStory": "Lorem ipsum dolor sit amet consectetur. Arcu augue ultrices orci metus eget. Dolor rhoncus vel ultrices gravida. Urna tellus orci condimentum phasellus. Fermentum quam quis proin ultricies. Elementum pellentesque elit urna suspendisse sapien augue. Laoreet habitasse at turpis purus dui non nunc sed. Eros condimentum sit velit orci id vitae volutpat. Urna imperdiet massa proin sit. Vivamus faucibus accumsan libero et tellus. Non nibh curabitur maecenas felis mattis morbi vestibulum adipiscing. A leo volutpat viverra turpis velit diam cursus odio. Consectetur varius nisi ac tortor habitasse semper dis lectus sed. Amet integer tristique eget orci justo sed ut massa ac. Etiam egestas amet vulputate viverra fermentum. Sit purus ornare sit bibendum semper ullamcorper. Ullamcorper id mauris sit vel donec tellus sit. Dignissim sagittis non felis habitant nunc rhoncus."
+  },
+  "mvpPage": {
+    "titleMVPMain": "HAVE AN IDEA OF WEB APP?\nLET'S START WITH MVP!",
+    "subtitleMVPMain": "Build and launch in 5 weeks for $5000 *",
+    "textMVPMain": "* the package includes twenty working days of one dedicated middle-level developer."
+  },
+  "contactForm": {
+    "titleContacts": "Let’s start a conversation",
+    "subtitleContacts": "Talk to one of our friendly team today and let us work our magic.",
+    "titleContactsSection": "Contacts",
+    "titleAddressSection": "Our addresses",
+    "addressFirst": "Pier X, Bryggegata 3,\n0250 Oslo,\nNorway",
+    "addressSecond": "Bahnfofsstrasse 5,\n8001 Zurich,\nSwitzerland",
+    "addressThird": "79000, Akademika Kolessy str.,\n2 Lviv,\nUkraine",
+    "email": "Email *",
+    "firstName": "First name *",
+    "lastName": "Last name *",
+    "phone": "Phone number",
+    "message": "How can we help?",
+    "error": "This information is mandatory",
+    "checkboxError": "This field is required"
+  },
+  "errorPage": {
+    "title": "Error 404",
+    "subtitle": "The page you were looking for doesn't appear to exist",
+    "backButton": "Go to the homepage"
+  }
+}

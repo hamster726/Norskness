@@ -1,0 +1,32 @@
+[
+  {
+    "frame": 1,
+    "subtitleProcess": "Pre-Project Consultation",
+    "descriptionProcess": "Before you hire Norksness our associates can give you feedback on your project, budget, plan and:\n\n— Assets Fit\n\nLearn about each other and decide if we are the right cultural fit for each other\n\n— Refine Ideas\n\nWe will ask lots of questions to validate your assumptions\n\n— Budget\n\nWe will help you set up a responsible budget in which we will create a broad plan and build a proposal within that budget"
+  },
+  {
+    "frame": 2,
+    "subtitleProcess": "Strategy",
+    "descriptionProcess": "First, we start by understanding your core business objectives and outlining a high level plan to achieve your goals and remove as many conditions of uncertainty as possible. We define:\n\n- The nature of the challenge \n\n- The plan for dealing with the challenge\n\n- Actions or next steps designed to execute the plan"
+  },
+  {
+    "frame": 3,
+    "subtitleProcess": "Design & Architecture",
+    "descriptionProcess": "Building fully clickable prototypes that your team can access via the cloud to share with stakeholders. Review designs with our engineering team on a weekly basis. Actions or next steps designed to execute the plan. Determine best fit software development architecture.\n\nIf designs exist already, no problem! We will evaluate them for completeness and qualify them to make sure that all the functionality required is present. Our in-house design team has you covered if we need to chip in."
+  },
+  {
+    "frame": 4,
+    "subtitleProcess": "Development",
+    "descriptionProcess": "Development is kicked off with a call with you, the project manager and developers restating objectives and confirming how we will communicate. Each of our engineering teams is paired with a senior tech lead, who pairs with your project manager.\n\nAll projects in the company are overseen by the solutions architect so you are never without support if issues arise. Tech leads have eight to fifteen years’ experience and we limit them to a set number of projects at any given time to ensure quality stays high."
+  },
+  {
+    "frame": 5,
+    "subtitleProcess": "Launch",
+    "descriptionProcess": "We support your team through launch and handle everything from server setup to data storage and deployment. If your software application requires deployment to the app store, we take care of that process for you."
+  },
+  {
+    "frame": 6,
+    "subtitleProcess": "Maintenance",
+    "descriptionProcess": "When you are ready to launch your project to the world, we will work with you to mitigate launch risks. We plan resources around hyper-care and prep infrastructure as appropriate. Going forward, we can accept feedback, structuring the rollout of new features, handle support inquiries and tackle any new features required by your users, staying flexible as your business grows."
+  }
+]

@@ -1,0 +1,23 @@
+[
+    {
+      "subtitleTechnologies": "Frontend",
+      "descriptionTechCol1": "Angular JS\nReact Native\nReact JS"
+    },
+  {
+    "subtitleTechnologies": "backend",
+    "descriptionTechCol1": "Ruby on Rails\nJAVA\nNode. Js",
+    "descriptionTechCol2": "ASP .Net\nPHP\nMEAN\nPython"
+  },
+  {
+    "subtitleTechnologies": "Mobile",
+    "descriptionTechCol1": "iOS\nAndriod\nSmart TV\nHybrid App"
+  },
+  {
+    "subtitleTechnologies": "Web",
+    "descriptionTechCol1": "Drupal\nAdobe Experience Manager\nWordPress"
+  },
+  {
+    "subtitleTechnologies": "Big Data",
+    "descriptionTechCol1": "Big Data\nData Science & Analytics\nNatural Language Processing"
+  }
+]

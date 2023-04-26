@@ -1,0 +1,26 @@
+@import "./Colors.scss";
+
+@mixin Field {
+    padding: 12px 12px 12px 0;
+    background-color: transparent;
+    color: $additionalDark!important;
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid $additionalDark;
+    text-align: left;
+    align-items: center;
+    border-radius: 3px;
+    outline: unset !important;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@mixin Field-mobile {
+    font-size: 18px;
+}
+
+@mixin Field-active {
+    @include Field();
+}
+

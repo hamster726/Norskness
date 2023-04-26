@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  flex: 1 1 auto;
+}
+
+.message {
+  position: relative;
+}
+
+.backButton {
+  margin-top: 50px;
+  max-width: max-content;
+}
+
+.bgContainer {
+  position: absolute;
+  bottom: 0;
+  left: -45%;
+  z-index: -1;
+  img {
+    width: 100%;
+  }
+}

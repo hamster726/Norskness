@@ -1,0 +1,26 @@
+[
+  {
+    "leftColumnOffer": {
+      "frame": 2,
+      "titleOfferItem": "SCOPE & MOCKUP",
+      "descriptionOffer": "For the agreed feature, we will prepare technical requirements, scope of work and mockup in order to realize that feature with the expected result."
+    },
+    "rightColumnOffer": {
+      "frame": 1,
+      "titleOfferItem": "REQUEST",
+      "descriptionOffer": "We will get in touch with you and discuss the app requirements. Among them, we will choose the principal product feature which we will be able to deliver within 10 working days."
+    }
+  },
+  {
+    "leftColumnOffer": {
+      "frame": 4,
+      "titleOfferItem": "REVIEW",
+      "descriptionOffer": "We will hold a presentation of the finished feature during which you will test how it works and whether it meets your requirements. We will discuss all the visual and technical aspects and advise on how is better to develop your product further."
+    },
+    "rightColumnOffer": {
+      "frame": 3,
+      "titleOfferItem": "DEVELOPMENT",
+      "descriptionOffer": "Our specialists will work towards the task as their own to assure the highest quality and deliver the feature on time. Within the development stage, we will always be in touch not to miss a thing."
+    }
+  }
+]
